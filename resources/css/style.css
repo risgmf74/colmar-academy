@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    align-items: right;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 24px;
+}
+
+.logo img {
+    width: 50px;
+    padding: 5px;
+}
+
+.logo h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #9b9b9b;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.dark-text {
+    color: #505050;
+    font-weight: 700;
+}
+
+.navbar ul {
+    padding: 24px;
+}
+
+.navbar li {
+    margin-right: 16px;
+}
+
+.navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #4a4a4a;
+}
+
+.navbar a:hover {
+    color: #9b9b9b;
+    transition: color 120ms linear;
+}
+
+.section-primary {
+    background-color: #d8d8d8;
+    width: 100%;
+    display: flex;
+}
+
+.section-primary img {
+    max-width: 60%;
+    margin: 32px 24px;
+}
+
+.primary-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 24px;
+}
+
+.primary-content h1 {
+    font-size: 3.5rem;
+    color: #4a4a4a;
+    padding-bottom: 2rem;
+}
+
+.primary-content p {
+    color: #4a4a4a;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.primary-content .btn {
+    background-color: #4a4a4a;
+    width: 80%;
+    text-align: center;
+    height: 3rem;
+    line-height: 1.75rem;
+    opacity: 1.0;
+}
+
+.primary-content .btn p {
+    padding: 8px 0;
+}
+
+.primary-content .btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.primary-content .btn:hover {
+    opacity: 0.75;
+    transition: opacity 120ms linear;
+}
+
+.section-secondary {
+    background-color: #f3f5f5;
+    display: flex;
+    width: 100%;
+}
+
+.content-left {
+    width: 60%;
+    padding: 32px 24px;
+    border-right: 2px solid #d8d8d8;
+}
+
+.content-left img {
+    width: 100%;
+    height: auto;
+}
+
+.content-left h3 {
+    font-size: 3rem;
+    color: #4a4a4a;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.content-left p {
+    font-size: 1.25rem;
+    color: #4a4a4a;
+    margin-bottom: 32px;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+} 
+
+.side-box {
+    display: flex;
+    width: 100%;
+    padding: 16px;
+    border-bottom: 2px solid #d8d8d8;
+}
+
+.side-box .box-img-contain {
+    height: auto;
+    width: 35%;
+}
+
+.side-box .box-img-contain img {
+    width: 100%;
+}
+
+.side-box .box-text-contain {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    justify-content: center;
+}
+
+.side-box .box-text-contain h4 {
+    font-size: 2rem;
+    font-weight: 550;
+    color: #4a4a4a;
+    margin-bottom: 16px;
+}
+
+.side-box .box-text-contain p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #4a4a4a;
+    margin-bottom: 16px;
+}
+
+.side-box .box-text-contain a {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #5797e3;
+    text-decoration: none;
+}
+
+.dark-bg {
+    background-color: #d8d8d8;
+}
+
+.side-box .box-text-contain a:hover {
+    color: #396497;
+    transition: color 120ms linear;
+}
+
+.section-third {
+    padding: 32px 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #eaebec;
+}
+
+.section-third h3 {
+    font-size: 3rem;
+    color: #4a4a4a;
+    margin-bottom: 32px;
+}
+
+.tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 16px;
+    background-color: #f3f5f5;
+    border-radius: 8px;
+}
+
+.course:hover {
+    background-color: #d8d8d8c0;
+    transition: background-color 120ms linear;
+}
+
+.course img {
+    display: flex;
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.course h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4a4a4a;
+    padding: 16px;
+}
+
+.course p {
+    font-size: 1.35rem;
+    font-weight: 300;
+    color: #6f6f6f;
+    padding: 0px 16px 8px 16px;
+}
+
+.course-description {
+    margin-bottom: 24px;
+}
